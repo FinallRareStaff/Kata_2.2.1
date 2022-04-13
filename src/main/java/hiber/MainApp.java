@@ -36,6 +36,7 @@ public class MainApp {
          System.out.println();
       }
 
+      System.out.println(userService.getUserByCarModelAndSeries("Tesla", 2).toString());
       context.close();
    }
 }

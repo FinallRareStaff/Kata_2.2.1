@@ -77,4 +77,14 @@ public class User {
    public void setEmail(String email) {
       this.email = email;
    }
+
+   @Override
+   public String toString() {
+      return "User id = " + id +
+              "\nFirstName = " + firstName +
+              "\nLastName = " + lastName +
+              "\nEmail = " + email +
+              "\nCar model = " + car.getModel() +
+              "\nCar series = " + car.getSeries();
+   }
 }
